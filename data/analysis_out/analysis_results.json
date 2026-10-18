@@ -1,0 +1,707 @@
+{
+  "grouping": {
+    "thresholds": {
+      "demo_share_cut": 0.0123,
+      "instructional_cut": 192,
+      "industrial_cut": 1160,
+      "basis": "observed medians of the marker measures"
+    },
+    "raw_distributions": {
+      "demo_share": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0003,
+        0.0046,
+        0.0123,
+        0.0255,
+        0.0805,
+        0.1429,
+        0.1514,
+        0.2007
+      ],
+      "instructional_hits": [
+        3,
+        28,
+        41,
+        104,
+        114,
+        176,
+        192,
+        202,
+        214,
+        255,
+        261,
+        698
+      ],
+      "industrial_hits": [
+        46,
+        265,
+        339,
+        514,
+        531,
+        597,
+        1160,
+        2362,
+        2502,
+        2612,
+        3129,
+        4469
+      ]
+    },
+    "rule": "a project is industrial-verified when its industrial-marker hits reach the threshold; among those, demonstration-oriented means its demo-subtree code share and instructional-marker hits both reach their thresholds; all others are production-oriented",
+    "assignment": {
+      "OpenPLC_v3": {
+        "group": "not-industrial-verified",
+        "demo_share": 0.0805,
+        "instructional_hits": 176,
+        "industrial_hits": 531,
+        "domain": "PLC/ICS runtime",
+        "industrial_verified": false,
+        "demo_evidence": false
+      },
+      "Serial-Studio": {
+        "group": "demonstration-oriented",
+        "demo_share": 0.0123,
+        "instructional_hits": 698,
+        "industrial_hits": 2502,
+        "domain": "industrial HMI",
+        "industrial_verified": true,
+        "demo_evidence": true
+      },
+      "evcc": {
+        "group": "not-industrial-verified",
+        "demo_share": 0.0,
+        "instructional_hits": 104,
+        "industrial_hits": 597,
+        "domain": "energy control",
+        "industrial_verified": false,
+        "demo_evidence": false
+      },
+      "IoTivity-Lite": {
+        "group": "not-industrial-verified",
+        "demo_share": 0.0,
+        "instructional_hits": 28,
+        "industrial_hits": 265,
+        "domain": "IoT middleware",
+        "industrial_verified": false,
+        "demo_evidence": false
+      },
+      "Beremiz": {
+        "group": "not-industrial-verified",
+        "demo_share": 0.0,
+        "instructional_hits": 41,
+        "industrial_hits": 339,
+        "domain": "SCADA runtime",
+        "industrial_verified": false,
+        "demo_evidence": false
+      },
+      "node-opcua": {
+        "group": "production-oriented",
+        "demo_share": 0.0003,
+        "instructional_hits": 214,
+        "industrial_hits": 2362,
+        "domain": "OPC UA stack",
+        "industrial_verified": true,
+        "demo_evidence": false
+      },
+      "pycomm3": {
+        "group": "not-industrial-verified",
+        "demo_share": 0.1429,
+        "instructional_hits": 3,
+        "industrial_hits": 46,
+        "domain": "PLC protocol client",
+        "industrial_verified": false,
+        "demo_evidence": false
+      },
+      "ESP8266-Arduino": {
+        "group": "not-industrial-verified",
+        "demo_share": 0.2007,
+        "instructional_hits": 192,
+        "industrial_hits": 514,
+        "domain": "embedded platform",
+        "industrial_verified": false,
+        "demo_evidence": true
+      },
+      "FreeRTOS-Kernel": {
+        "group": "production-oriented",
+        "demo_share": 0.0046,
+        "instructional_hits": 114,
+        "industrial_hits": 1160,
+        "domain": "RTOS kernel",
+        "industrial_verified": true,
+        "demo_evidence": false
+      },
+      "RIOT": {
+        "group": "demonstration-oriented",
+        "demo_share": 0.0255,
+        "instructional_hits": 202,
+        "industrial_hits": 3129,
+        "domain": "embedded OS",
+        "industrial_verified": true,
+        "demo_evidence": true
+      },
+      "Contiki-NG": {
+        "group": "demonstration-oriented",
+        "demo_share": 0.1514,
+        "instructional_hits": 261,
+        "industrial_hits": 2612,
+        "domain": "embedded OS",
+        "industrial_verified": true,
+        "demo_evidence": true
+      },
+      "Zephyr": {
+        "group": "production-oriented",
+        "demo_share": 0.0,
+        "instructional_hits": 255,
+        "industrial_hits": 4469,
+        "domain": "embedded OS",
+        "industrial_verified": true,
+        "demo_evidence": false
+      }
+    },
+    "counts": {
+      "not-industrial-verified": 6,
+      "demonstration-oriented": 3,
+      "production-oriented": 3
+    }
+  },
+  "rq1": {
+    "per_group": [],
+    "test_project_cc_mean": {
+      "U": 3.0,
+      "z": -0.4364,
+      "p": 0.662521,
+      "effect_r": -0.3333,
+      "n_x": 3,
+      "n_y": 3,
+      "cliffs_delta": 0.3333,
+      "median_diff_ci": {
+        "point": 1.011,
+        "lo": -1.103,
+        "hi": 1.919,
+        "n_boot": 2000
+      }
+    },
+    "test_project_cc_p95": {
+      "U": 3.0,
+      "z": -0.4364,
+      "p": 0.662521,
+      "effect_r": -0.3333,
+      "n_x": 3,
+      "n_y": 3,
+      "cliffs_delta": 0.3333
+    },
+    "test_share_cc_gt10": {
+      "U": 3.0,
+      "z": -0.4364,
+      "p": 0.662521,
+      "effect_r": -0.3333,
+      "n_x": 3,
+      "n_y": 3,
+      "cliffs_delta": 0.3333
+    }
+  },
+  "rq2": {
+    "per_group_metric": [
+      {
+        "group": "demonstration-oriented",
+        "metric": "median_fn_nloc",
+        "n_projects": 3,
+        "name": "median_fn_nloc",
+        "n": 3,
+        "mean": 9.6667,
+        "sd": 1.1547,
+        "min": 9.0,
+        "q1": 9.0,
+        "median": 9.0,
+        "q3": 10.0,
+        "max": 11.0,
+        "iqr": 1.0
+      },
+      {
+        "group": "demonstration-oriented",
+        "metric": "p90_fn_nloc",
+        "n_projects": 3,
+        "name": "p90_fn_nloc",
+        "n": 3,
+        "mean": 33.0,
+        "sd": 1.7321,
+        "min": 32.0,
+        "q1": 32.0,
+        "median": 32.0,
+        "q3": 33.5,
+        "max": 35.0,
+        "iqr": 1.5
+      },
+      {
+        "group": "demonstration-oriented",
+        "metric": "long_fn_share",
+        "n_projects": 3,
+        "name": "long_fn_share",
+        "n": 3,
+        "mean": 0.0285,
+        "sd": 0.0055,
+        "min": 0.0244,
+        "q1": 0.0254,
+        "median": 0.0264,
+        "q3": 0.0306,
+        "max": 0.0347,
+        "iqr": 0.0052
+      },
+      {
+        "group": "demonstration-oriented",
+        "metric": "mean_params",
+        "n_projects": 3,
+        "name": "mean_params",
+        "n": 3,
+        "mean": 1.452,
+        "sd": 0.1274,
+        "min": 1.375,
+        "q1": 1.3785,
+        "median": 1.382,
+        "q3": 1.4905,
+        "max": 1.599,
+        "iqr": 0.112
+      },
+      {
+        "group": "demonstration-oriented",
+        "metric": "comment_ratio",
+        "n_projects": 3,
+        "name": "comment_ratio",
+        "n": 3,
+        "mean": 0.1068,
+        "sd": 0.0418,
+        "min": 0.0593,
+        "q1": 0.0911,
+        "median": 0.1229,
+        "q3": 0.1305,
+        "max": 0.1381,
+        "iqr": 0.0394
+      },
+      {
+        "group": "demonstration-oriented",
+        "metric": "cc_per_kloc",
+        "n_projects": 3,
+        "name": "cc_per_kloc",
+        "n": 3,
+        "mean": 94.2557,
+        "sd": 45.4292,
+        "min": 45.249,
+        "q1": 73.902,
+        "median": 102.555,
+        "q3": 118.759,
+        "max": 134.963,
+        "iqr": 44.857
+      },
+      {
+        "group": "production-oriented",
+        "metric": "median_fn_nloc",
+        "n_projects": 3,
+        "name": "median_fn_nloc",
+        "n": 3,
+        "mean": 12.3333,
+        "sd": 6.6583,
+        "min": 5.0,
+        "q1": 9.5,
+        "median": 14.0,
+        "q3": 16.0,
+        "max": 18.0,
+        "iqr": 6.5
+      },
+      {
+        "group": "production-oriented",
+        "metric": "p90_fn_nloc",
+        "n_projects": 3,
+        "name": "p90_fn_nloc",
+        "n": 3,
+        "mean": 35.3333,
+        "sd": 13.2791,
+        "min": 20.0,
+        "q1": 31.5,
+        "median": 43.0,
+        "q3": 43.0,
+        "max": 43.0,
+        "iqr": 11.5
+      },
+      {
+        "group": "production-oriented",
+        "metric": "long_fn_share",
+        "n_projects": 3,
+        "name": "long_fn_share",
+        "n": 3,
+        "mean": 0.0399,
+        "sd": 0.0291,
+        "min": 0.0089,
+        "q1": 0.0267,
+        "median": 0.0444,
+        "q3": 0.0554,
+        "max": 0.0665,
+        "iqr": 0.0288
+      },
+      {
+        "group": "production-oriented",
+        "metric": "mean_params",
+        "n_projects": 3,
+        "name": "mean_params",
+        "n": 3,
+        "mean": 1.2127,
+        "sd": 0.7673,
+        "min": 0.459,
+        "q1": 0.8225,
+        "median": 1.186,
+        "q3": 1.5895,
+        "max": 1.993,
+        "iqr": 0.767
+      },
+      {
+        "group": "production-oriented",
+        "metric": "comment_ratio",
+        "n_projects": 3,
+        "name": "comment_ratio",
+        "n": 3,
+        "mean": 0.1068,
+        "sd": 0.0999,
+        "min": 0.0019,
+        "q1": 0.0597,
+        "median": 0.1176,
+        "q3": 0.1592,
+        "max": 0.2008,
+        "iqr": 0.0995
+      },
+      {
+        "group": "production-oriented",
+        "metric": "cc_per_kloc",
+        "n_projects": 3,
+        "name": "cc_per_kloc",
+        "n": 3,
+        "mean": 94.603,
+        "sd": 44.2924,
+        "min": 65.483,
+        "q1": 69.117,
+        "median": 72.751,
+        "q3": 109.163,
+        "max": 145.575,
+        "iqr": 40.046
+      }
+    ],
+    "tests": {
+      "median_fn_nloc": {
+        "U": 3.0,
+        "z": -0.4428,
+        "p": 0.657905,
+        "effect_r": -0.3333,
+        "n_x": 3,
+        "n_y": 3,
+        "cliffs_delta": -0.3333,
+        "median_diff_ci": {
+          "point": -5.0,
+          "lo": -9.0,
+          "hi": 6.0,
+          "n_boot": 2000
+        }
+      },
+      "p90_fn_nloc": {
+        "U": 3.0,
+        "z": -0.4495,
+        "p": 0.653095,
+        "effect_r": -0.3333,
+        "n_x": 3,
+        "n_y": 3,
+        "cliffs_delta": -0.3333,
+        "median_diff_ci": {
+          "point": -11.0,
+          "lo": -11.0,
+          "hi": 15.0,
+          "n_boot": 2000
+        }
+      },
+      "long_fn_share": {
+        "U": 3.0,
+        "z": -0.4364,
+        "p": 0.662521,
+        "effect_r": -0.3333,
+        "n_x": 3,
+        "n_y": 3,
+        "cliffs_delta": -0.3333,
+        "median_diff_ci": {
+          "point": -0.018,
+          "lo": -0.0421,
+          "hi": 0.0258,
+          "n_boot": 2000
+        }
+      },
+      "mean_params": {
+        "U": 3.0,
+        "z": -0.4364,
+        "p": 0.662521,
+        "effect_r": -0.3333,
+        "n_x": 3,
+        "n_y": 3,
+        "cliffs_delta": 0.3333,
+        "median_diff_ci": {
+          "point": 0.196,
+          "lo": -0.618,
+          "hi": 1.14,
+          "n_boot": 2000
+        }
+      },
+      "cc_per_kloc": {
+        "U": 4.0,
+        "z": 0.0,
+        "p": 1.0,
+        "effect_r": -0.1111,
+        "n_x": 3,
+        "n_y": 3,
+        "cliffs_delta": -0.1111,
+        "median_diff_ci": {
+          "point": 29.804,
+          "lo": -100.326,
+          "hi": 69.48,
+          "n_boot": 2000
+        }
+      }
+    }
+  },
+  "rq3": {
+    "per_group_metric": [
+      {
+        "group": "demonstration-oriented",
+        "metric": "mean_instability",
+        "n_projects": 3,
+        "name": "mean_instability",
+        "n": 3,
+        "mean": 0.861,
+        "sd": 0.0719,
+        "min": 0.7781,
+        "q1": 0.838,
+        "median": 0.8979,
+        "q3": 0.9024,
+        "max": 0.9069,
+        "iqr": 0.0644
+      },
+      {
+        "group": "demonstration-oriented",
+        "metric": "include_edges",
+        "n_projects": 3,
+        "name": "include_edges",
+        "n": 3,
+        "mean": 2581.3333,
+        "sd": 2225.1978,
+        "min": 234,
+        "q1": 1542.0,
+        "median": 2850,
+        "q3": 3755.0,
+        "max": 4660,
+        "iqr": 2213.0
+      },
+      {
+        "group": "demonstration-oriented",
+        "metric": "max_ca",
+        "n_projects": 3,
+        "name": "max_ca",
+        "n": 3,
+        "mean": 192.6667,
+        "sd": 162.8537,
+        "min": 54,
+        "q1": 103.0,
+        "median": 152,
+        "q3": 262.0,
+        "max": 372,
+        "iqr": 159.0
+      },
+      {
+        "group": "demonstration-oriented",
+        "metric": "max_ce",
+        "n_projects": 3,
+        "name": "max_ce",
+        "n": 3,
+        "mean": 15.6667,
+        "sd": 13.8684,
+        "min": 4,
+        "q1": 8.0,
+        "median": 12,
+        "q3": 21.5,
+        "max": 31,
+        "iqr": 13.5
+      },
+      {
+        "group": "production-oriented",
+        "metric": "mean_instability",
+        "n_projects": 3,
+        "name": "mean_instability",
+        "n": 3,
+        "mean": 0.5459,
+        "sd": 0.4875,
+        "min": 0.0,
+        "q1": 0.35,
+        "median": 0.7,
+        "q3": 0.8189,
+        "max": 0.9378,
+        "iqr": 0.4689
+      },
+      {
+        "group": "production-oriented",
+        "metric": "include_edges",
+        "n_projects": 3,
+        "name": "include_edges",
+        "n": 3,
+        "mean": 628.6667,
+        "sd": 1082.8261,
+        "min": 0,
+        "q1": 3.5,
+        "median": 7,
+        "q3": 943.0,
+        "max": 1879,
+        "iqr": 939.5
+      },
+      {
+        "group": "production-oriented",
+        "metric": "max_ca",
+        "n_projects": 3,
+        "name": "max_ca",
+        "n": 3,
+        "mean": 243.0,
+        "sd": 416.5657,
+        "min": 0,
+        "q1": 2.5,
+        "median": 5,
+        "q3": 364.5,
+        "max": 724,
+        "iqr": 362.0
+      },
+      {
+        "group": "production-oriented",
+        "metric": "max_ce",
+        "n_projects": 3,
+        "name": "max_ce",
+        "n": 3,
+        "mean": 1.6667,
+        "sd": 2.0817,
+        "min": 0,
+        "q1": 0.5,
+        "median": 1,
+        "q3": 2.5,
+        "max": 4,
+        "iqr": 2.0
+      }
+    ],
+    "tests": {
+      "mean_instability": {
+        "U": 3.0,
+        "z": -0.4364,
+        "p": 0.662521,
+        "effect_r": -0.3333,
+        "n_x": 3,
+        "n_y": 3,
+        "cliffs_delta": 0.3333
+      },
+      "include_edges": {
+        "U": 1.0,
+        "z": -1.3093,
+        "p": 0.19043,
+        "effect_r": -0.7778,
+        "n_x": 3,
+        "n_y": 3,
+        "cliffs_delta": 0.7778
+      },
+      "max_ca": {
+        "U": 3.0,
+        "z": -0.4364,
+        "p": 0.662521,
+        "effect_r": -0.3333,
+        "n_x": 3,
+        "n_y": 3,
+        "cliffs_delta": 0.3333
+      }
+    },
+    "note": "coupling is computed from a resolved #include graph: afferent coupling = number of project translation units that include this file, efferent = number of project files it includes; instability = Ce/(Ca+Ce)"
+  },
+  "rq4": {
+    "per_domain": [
+      {
+        "domain": "embedded OS",
+        "n_projects": 3,
+        "n_demo": 2,
+        "mean_cc": 3.73,
+        "median_cc_p95": 12.0,
+        "median_share_Cplus": 0.0615,
+        "median_fn_nloc": 11.0,
+        "sloc": 1047359
+      },
+      {
+        "domain": "industrial HMI",
+        "n_projects": 1,
+        "n_demo": 1,
+        "mean_cc": 3.5,
+        "median_cc_p95": 11.0,
+        "median_share_Cplus": 0.0573,
+        "median_fn_nloc": 9.0,
+        "sloc": 236124
+      },
+      {
+        "domain": "RTOS kernel",
+        "n_projects": 1,
+        "n_demo": 0,
+        "mean_cc": 2.489,
+        "median_cc_p95": 9.0,
+        "median_share_Cplus": 0.0383,
+        "median_fn_nloc": 18.0,
+        "sloc": 86099
+      },
+      {
+        "domain": "OPC UA stack",
+        "n_projects": 1,
+        "n_demo": 0,
+        "mean_cc": 1.845,
+        "median_cc_p95": 5.0,
+        "median_share_Cplus": 0.0145,
+        "median_fn_nloc": 5.0,
+        "sloc": 154092
+      }
+    ],
+    "tests_cc_p95": {},
+    "group_definitions": {
+      "firmware": [
+        "embedded-OS",
+        "RTOS-kernel",
+        "IoT-middleware"
+      ],
+      "platform": [
+        "industrial-protocol-stack",
+        "industrial-messaging",
+        "industrial-protocol-client"
+      ],
+      "hmi": [
+        "industrial-HMI",
+        "monitoring-UI",
+        "SCADA-runtime"
+      ]
+    }
+  },
+  "sensitivity": {
+    "at_median_cut": {
+      "demo_cut": 0.0123,
+      "ins_cut": 192,
+      "n_demo": 0,
+      "n_prod": 0,
+      "note": "group too small for a test at this cut"
+    },
+    "at_lower_quartile_cut": {
+      "demo_cut": 0.0123,
+      "ins_cut": 88.25,
+      "n_demo": 3,
+      "n_prod": 3,
+      "median_cc_p95_demo": 11.0,
+      "median_cc_p95_prod": 9.0,
+      "U": 3.0,
+      "z": -0.4364,
+      "p": 0.662521,
+      "effect_r": -0.3333,
+      "n_x": 3,
+      "n_y": 3,
+      "cliffs_delta": 0.3333
+    }
+  }
+}

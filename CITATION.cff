@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+title: "Code-Metric Distributions of Demonstration-Oriented vs Production-Oriented Industrial Software"
+message: >-
+  If you use this artefact, please cite it using the metadata above.
+type: software
+authors:
+  - family-names: Zhang
+    given-names: Kai
+    affiliation: "Guangdong Communication Polytechnic"
+    orcid: "https://orcid.org/0009-0001-6564-6588"
+keywords:
+  - "code metrics"
+  - "demonstration code"
+  - "industrial software"
+  - "software engineering education"
+license: MIT
+repository-code: "https://github.com/DrKaiZhang/demo-vs-production-complexity"

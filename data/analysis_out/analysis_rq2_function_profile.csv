@@ -1,0 +1,13 @@
+group,metric,n_projects,name,n,mean,sd,min,q1,median,q3,max,iqr
+demonstration-oriented,median_fn_nloc,3,median_fn_nloc,3,9.6667,1.1547,9.0,9.0,9.0,10.0,11.0,1.0
+demonstration-oriented,p90_fn_nloc,3,p90_fn_nloc,3,33.0,1.7321,32.0,32.0,32.0,33.5,35.0,1.5
+demonstration-oriented,long_fn_share,3,long_fn_share,3,0.0285,0.0055,0.0244,0.0254,0.0264,0.0306,0.0347,0.0052
+demonstration-oriented,mean_params,3,mean_params,3,1.452,0.1274,1.375,1.3785,1.382,1.4905,1.599,0.112
+demonstration-oriented,comment_ratio,3,comment_ratio,3,0.1068,0.0418,0.0593,0.0911,0.1229,0.1305,0.1381,0.0394
+demonstration-oriented,cc_per_kloc,3,cc_per_kloc,3,94.2557,45.4292,45.249,73.902,102.555,118.759,134.963,44.857
+production-oriented,median_fn_nloc,3,median_fn_nloc,3,12.3333,6.6583,5.0,9.5,14.0,16.0,18.0,6.5
+production-oriented,p90_fn_nloc,3,p90_fn_nloc,3,35.3333,13.2791,20.0,31.5,43.0,43.0,43.0,11.5
+production-oriented,long_fn_share,3,long_fn_share,3,0.0399,0.0291,0.0089,0.0267,0.0444,0.0554,0.0665,0.0288
+production-oriented,mean_params,3,mean_params,3,1.2127,0.7673,0.459,0.8225,1.186,1.5895,1.993,0.767
+production-oriented,comment_ratio,3,comment_ratio,3,0.1068,0.0999,0.0019,0.0597,0.1176,0.1592,0.2008,0.0995
+production-oriented,cc_per_kloc,3,cc_per_kloc,3,94.603,44.2924,65.483,69.117,72.751,109.163,145.575,40.046

@@ -1,0 +1,3 @@
+cut,demo_cut,ins_cut,n_demo,n_prod,note
+at_median_cut,0.0123,192,0,0,group too small for a test at this cut
+at_lower_quartile_cut,0.0123,88.25,3,3,

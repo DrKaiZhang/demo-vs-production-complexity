@@ -1,0 +1,1530 @@
+{
+  "population": {
+    "n_projects": 21,
+    "n_functions": 243990,
+    "n_sloc": 2807660,
+    "n_file_records": 1758,
+    "groups": {
+      "not-industrial-verified": 10,
+      "demonstration-oriented": 4,
+      "production-oriented": 7
+    }
+  },
+  "grouping": {
+    "cuts": {
+      "demo_share_cut": 0.01,
+      "instructional_cut": 76.0,
+      "industrial_cut": 495.0,
+      "basis": "observed medians of the marker measures"
+    },
+    "assignment": {
+      "Beremiz": {
+        "group": "not-industrial-verified",
+        "demo_subtree_share": 0.0,
+        "instructional_hits": 38.0,
+        "industrial_hits": 334.0,
+        "n_functions": 6055,
+        "cc_mean": 3.447,
+        "cc_p95": 11.0
+      },
+      "Contiki-NG": {
+        "group": "demonstration-oriented",
+        "demo_subtree_share": 0.1612,
+        "instructional_hits": 249.0,
+        "industrial_hits": 2541.0,
+        "n_functions": 6815,
+        "cc_mean": 3.905,
+        "cc_p95": 12.0
+      },
+      "ESP-IDF": {
+        "group": "production-oriented",
+        "demo_subtree_share": 0.0,
+        "instructional_hits": 336.0,
+        "industrial_hits": 3234.0,
+        "n_functions": 43315,
+        "cc_mean": 3.079,
+        "cc_p95": 10.0
+      },
+      "ESP8266-Arduino": {
+        "group": "not-industrial-verified",
+        "demo_subtree_share": 0.2273,
+        "instructional_hits": 193.0,
+        "industrial_hits": 473.0,
+        "n_functions": 5166,
+        "cc_mean": 2.861,
+        "cc_p95": 9.0
+      },
+      "evcc": {
+        "group": "production-oriented",
+        "demo_subtree_share": 0.0,
+        "instructional_hits": 66.0,
+        "industrial_hits": 581.0,
+        "n_functions": 12529,
+        "cc_mean": 2.35,
+        "cc_p95": 7.0
+      },
+      "FreeRTOS-Kernel": {
+        "group": "production-oriented",
+        "demo_subtree_share": 0.0046,
+        "instructional_hits": 152.0,
+        "industrial_hits": 1174.0,
+        "n_functions": 5638,
+        "cc_mean": 2.489,
+        "cc_p95": 9.0
+      },
+      "IoTivity-Lite": {
+        "group": "not-industrial-verified",
+        "demo_subtree_share": 0.0,
+        "instructional_hits": 29.0,
+        "industrial_hits": 254.0,
+        "n_functions": 6162,
+        "cc_mean": 3.767,
+        "cc_p95": 11.0
+      },
+      "Mbed-OS": {
+        "group": "production-oriented",
+        "demo_subtree_share": 0.0,
+        "instructional_hits": 523.0,
+        "industrial_hits": 2059.0,
+        "n_functions": 29935,
+        "cc_mean": 3.991,
+        "cc_p95": 13.0
+      },
+      "node-opcua": {
+        "group": "production-oriented",
+        "demo_subtree_share": 0.0004,
+        "instructional_hits": 194.0,
+        "industrial_hits": 2380.0,
+        "n_functions": 7746,
+        "cc_mean": 2.973,
+        "cc_p95": 9.0
+      },
+      "OpenPLC_v3": {
+        "group": "demonstration-oriented",
+        "demo_subtree_share": 0.0923,
+        "instructional_hits": 171.0,
+        "industrial_hits": 495.0,
+        "n_functions": 12465,
+        "cc_mean": 2.09,
+        "cc_p95": 6.0
+      },
+      "pycomm3": {
+        "group": "not-industrial-verified",
+        "demo_subtree_share": 0.2059,
+        "instructional_hits": 3.0,
+        "industrial_hits": 34.0,
+        "n_functions": 345,
+        "cc_mean": 3.191,
+        "cc_p95": 9.0
+      },
+      "RIOT": {
+        "group": "demonstration-oriented",
+        "demo_subtree_share": 0.0367,
+        "instructional_hits": 432.0,
+        "industrial_hits": 3790.0,
+        "n_functions": 12584,
+        "cc_mean": 3.04,
+        "cc_p95": 9.0
+      },
+      "Serial-Studio": {
+        "group": "demonstration-oriented",
+        "demo_subtree_share": 0.0147,
+        "instructional_hits": 511.0,
+        "industrial_hits": 2142.0,
+        "n_functions": 26460,
+        "cc_mean": 3.841,
+        "cc_p95": 12.0
+      },
+      "Zephyr": {
+        "group": "production-oriented",
+        "demo_subtree_share": 0.0,
+        "instructional_hits": 458.0,
+        "industrial_hits": 7654.0,
+        "n_functions": 35428,
+        "cc_mean": 4.263,
+        "cc_p95": 13.0
+      },
+      "Eclipse Ditto": {
+        "group": "production-oriented",
+        "demo_subtree_share": 0.0,
+        "instructional_hits": 76.0,
+        "industrial_hits": 607.0,
+        "n_functions": 19492,
+        "cc_mean": 1.524,
+        "cc_p95": 4.0
+      },
+      "emoncms": {
+        "group": "not-industrial-verified",
+        "demo_subtree_share": 0.0,
+        "instructional_hits": 3.0,
+        "industrial_hits": 10.0,
+        "n_functions": 481,
+        "cc_mean": 2.798,
+        "cc_p95": 8.0
+      },
+      "HiveMQ CE": {
+        "group": "not-industrial-verified",
+        "demo_subtree_share": 0.0,
+        "instructional_hits": 9.0,
+        "industrial_hits": 122.0,
+        "n_functions": 5074,
+        "cc_mean": 1.907,
+        "cc_p95": 6.0
+      },
+      "Mainflux": {
+        "group": "not-industrial-verified",
+        "demo_subtree_share": 0.0,
+        "instructional_hits": 35.0,
+        "industrial_hits": 74.0,
+        "n_functions": 3609,
+        "cc_mean": 2.585,
+        "cc_p95": 7.0
+      },
+      "Mosquitto": {
+        "group": "not-industrial-verified",
+        "demo_subtree_share": 0.0852,
+        "instructional_hits": 56.0,
+        "industrial_hits": 42.0,
+        "n_functions": 2010,
+        "cc_mean": 6.963,
+        "cc_p95": 22.0
+      },
+      "ros2_control": {
+        "group": "not-industrial-verified",
+        "demo_subtree_share": 0.0,
+        "instructional_hits": 13.0,
+        "industrial_hits": 55.0,
+        "n_functions": 776,
+        "cc_mean": 4.249,
+        "cc_p95": 16.0
+      },
+      "ThingsBoard-Gateway": {
+        "group": "not-industrial-verified",
+        "demo_subtree_share": 0.0,
+        "instructional_hits": 3.0,
+        "industrial_hits": 63.0,
+        "n_functions": 1905,
+        "cc_mean": 4.052,
+        "cc_p95": 14.0
+      }
+    }
+  },
+  "continuous_associations": {
+    "demo_vs_cc_mean": {
+      "rho": 0.0173,
+      "p": 0.940725,
+      "n": 21,
+      "t": 0.0753,
+      "x": "demo_subtree_share",
+      "y": "cc_mean"
+    },
+    "demo_vs_cc_p95": {
+      "rho": -0.0018,
+      "p": 0.502589,
+      "n": 21,
+      "t": -0.0079,
+      "x": "demo_subtree_share",
+      "y": "cc_p95"
+    },
+    "demo_vs_cc_max": {
+      "rho": 0.2218,
+      "p": 0.333945,
+      "n": 21,
+      "t": 0.9914,
+      "x": "demo_subtree_share",
+      "y": "cc_max"
+    },
+    "demo_vs_cc_per_kloc": {
+      "rho": -0.0727,
+      "p": 0.75422,
+      "n": 21,
+      "t": -0.3176,
+      "x": "demo_subtree_share",
+      "y": "cc_per_kloc"
+    },
+    "demo_vs_share_Cplus": {
+      "rho": 0.0029,
+      "p": 0.701756,
+      "n": 21,
+      "t": 0.0125,
+      "x": "demo_subtree_share",
+      "y": "share_Cplus"
+    },
+    "demo_vs_median_fn_nloc": {
+      "rho": 0.0888,
+      "p": 0.701835,
+      "n": 21,
+      "t": 0.3887,
+      "x": "demo_subtree_share",
+      "y": "median_fn_nloc"
+    },
+    "demo_vs_long_fn_share": {
+      "rho": 0.054,
+      "p": 0.816269,
+      "n": 21,
+      "t": 0.2356,
+      "x": "demo_subtree_share",
+      "y": "long_fn_share"
+    },
+    "demo_vs_mean_params": {
+      "rho": -0.0425,
+      "p": 0.855012,
+      "n": 21,
+      "t": -0.1852,
+      "x": "demo_subtree_share",
+      "y": "mean_params"
+    },
+    "demo_vs_mean_instability": {
+      "rho": -0.0725,
+      "p": 0.822799,
+      "n": 12,
+      "t": -0.2299,
+      "x": "demo_subtree_share",
+      "y": "mean_instability"
+    },
+    "demo_vs_include_edges": {
+      "rho": 0.3642,
+      "p": 0.104568,
+      "n": 21,
+      "t": 1.7046,
+      "x": "demo_subtree_share",
+      "y": "include_edges"
+    },
+    "demo_vs_max_ca": {
+      "rho": 0.3522,
+      "p": 0.117378,
+      "n": 21,
+      "t": 1.6404,
+      "x": "demo_subtree_share",
+      "y": "max_ca"
+    },
+    "demo_vs_comment_ratio": {
+      "rho": 0.3813,
+      "p": 0.088129,
+      "n": 21,
+      "t": 1.7977,
+      "x": "demo_subtree_share",
+      "y": "comment_ratio"
+    },
+    "instructional_vs_cc_mean": {
+      "rho": 0.1456,
+      "p": 0.528741,
+      "n": 21,
+      "t": 0.6417,
+      "x": "instructional_hits",
+      "y": "cc_mean"
+    },
+    "instructional_vs_cc_p95": {
+      "rho": 0.1678,
+      "p": 0.467147,
+      "n": 21,
+      "t": 0.742,
+      "x": "instructional_hits",
+      "y": "cc_p95"
+    },
+    "instructional_vs_cc_per_kloc": {
+      "rho": 0.2302,
+      "p": 0.315503,
+      "n": 21,
+      "t": 1.031,
+      "x": "instructional_hits",
+      "y": "cc_per_kloc"
+    },
+    "instructional_vs_include_edges": {
+      "rho": 0.7435,
+      "p": 0.000112,
+      "n": 21,
+      "t": 4.8458,
+      "x": "instructional_hits",
+      "y": "include_edges"
+    },
+    "industrial_vs_cc_mean": {
+      "rho": 0.0091,
+      "p": 0.961616,
+      "n": 21,
+      "t": 0.0396,
+      "x": "industrial_hits",
+      "y": "cc_mean"
+    },
+    "industrial_vs_cc_p95": {
+      "rho": 0.0308,
+      "p": 0.894665,
+      "n": 21,
+      "t": 0.1342,
+      "x": "industrial_hits",
+      "y": "cc_p95"
+    },
+    "industrial_vs_cc_per_kloc": {
+      "rho": 0.074,
+      "p": 0.749806,
+      "n": 21,
+      "t": 0.3236,
+      "x": "industrial_hits",
+      "y": "cc_per_kloc"
+    },
+    "demo_vs_n_functions": {
+      "rho": -0.1288,
+      "p": 0.577899,
+      "n": 21,
+      "t": -0.5662,
+      "x": "demo_subtree_share",
+      "y": "n_functions"
+    },
+    "demo_vs_sloc": {
+      "rho": -0.1763,
+      "p": 0.444591,
+      "n": 21,
+      "t": -0.7807,
+      "x": "demo_subtree_share",
+      "y": "sloc"
+    }
+  },
+  "rq1_profile": [
+    {
+      "group": "demonstration-oriented",
+      "metric": "cc_mean",
+      "n_projects": 4,
+      "name": "cc_mean",
+      "n": 4,
+      "mean": 3.219,
+      "sd": 0.8493,
+      "min": 2.09,
+      "q1": 2.8025,
+      "median": 3.4405,
+      "q3": 3.857,
+      "max": 3.905,
+      "iqr": 1.0545
+    },
+    {
+      "group": "demonstration-oriented",
+      "metric": "cc_p95",
+      "n_projects": 4,
+      "name": "cc_p95",
+      "n": 4,
+      "mean": 9.75,
+      "sd": 2.8723,
+      "min": 6.0,
+      "q1": 8.25,
+      "median": 10.5,
+      "q3": 12.0,
+      "max": 12.0,
+      "iqr": 3.75
+    },
+    {
+      "group": "demonstration-oriented",
+      "metric": "cc_max",
+      "n_projects": 4,
+      "name": "cc_max",
+      "n": 4,
+      "mean": 201.5,
+      "sd": 25.0133,
+      "min": 173.0,
+      "q1": 184.25,
+      "median": 205.0,
+      "q3": 222.25,
+      "max": 223.0,
+      "iqr": 38.0
+    },
+    {
+      "group": "demonstration-oriented",
+      "metric": "share_Cplus",
+      "n_projects": 4,
+      "name": "share_Cplus",
+      "n": 4,
+      "mean": 0.0481,
+      "sd": 0.0227,
+      "min": 0.0191,
+      "q1": 0.0354,
+      "median": 0.0528,
+      "q3": 0.0654,
+      "max": 0.0677,
+      "iqr": 0.03
+    },
+    {
+      "group": "demonstration-oriented",
+      "metric": "cc_per_kloc",
+      "n_projects": 4,
+      "name": "cc_per_kloc",
+      "n": 4,
+      "mean": 97.008,
+      "sd": 42.0486,
+      "min": 39.004,
+      "q1": 85.813,
+      "median": 104.832,
+      "q3": 116.027,
+      "max": 139.364,
+      "iqr": 30.214
+    },
+    {
+      "group": "demonstration-oriented",
+      "metric": "n_functions",
+      "n_projects": 4,
+      "name": "n_functions",
+      "n": 4,
+      "mean": 14581.0,
+      "sd": 8364.3462,
+      "min": 6815.0,
+      "q1": 11052.5,
+      "median": 12524.5,
+      "q3": 16053.0,
+      "max": 26460.0,
+      "iqr": 5000.5
+    },
+    {
+      "group": "production-oriented",
+      "metric": "cc_mean",
+      "n_projects": 7,
+      "name": "cc_mean",
+      "n": 7,
+      "mean": 2.9527,
+      "sd": 0.9514,
+      "min": 1.524,
+      "q1": 2.4195,
+      "median": 2.973,
+      "q3": 3.535,
+      "max": 4.263,
+      "iqr": 1.1155
+    },
+    {
+      "group": "production-oriented",
+      "metric": "cc_p95",
+      "n_projects": 7,
+      "name": "cc_p95",
+      "n": 7,
+      "mean": 9.2857,
+      "sd": 3.1997,
+      "min": 4.0,
+      "q1": 8.0,
+      "median": 9.0,
+      "q3": 11.5,
+      "max": 13.0,
+      "iqr": 3.5
+    },
+    {
+      "group": "production-oriented",
+      "metric": "cc_max",
+      "n_projects": 7,
+      "name": "cc_max",
+      "n": 7,
+      "mean": 125.5714,
+      "sd": 88.8742,
+      "min": 44.0,
+      "q1": 59.5,
+      "median": 74.0,
+      "q3": 185.0,
+      "max": 272.0,
+      "iqr": 125.5
+    },
+    {
+      "group": "production-oriented",
+      "metric": "share_Cplus",
+      "n_projects": 7,
+      "name": "share_Cplus",
+      "n": 7,
+      "mean": 0.0436,
+      "sd": 0.0276,
+      "min": 0.0042,
+      "q1": 0.0284,
+      "median": 0.0411,
+      "q3": 0.061,
+      "max": 0.0811,
+      "iqr": 0.0326
+    },
+    {
+      "group": "production-oriented",
+      "metric": "cc_per_kloc",
+      "n_projects": 7,
+      "name": "cc_per_kloc",
+      "n": 7,
+      "mean": 92.6534,
+      "sd": 20.7671,
+      "min": 65.483,
+      "q1": 80.0475,
+      "median": 92.152,
+      "q3": 103.2795,
+      "max": 124.285,
+      "iqr": 23.232
+    },
+    {
+      "group": "production-oriented",
+      "metric": "n_functions",
+      "n_projects": 7,
+      "name": "n_functions",
+      "n": 7,
+      "mean": 22011.8571,
+      "sd": 14517.1457,
+      "min": 5638.0,
+      "q1": 10137.5,
+      "median": 19492.0,
+      "q3": 32681.5,
+      "max": 43315.0,
+      "iqr": 22544.0
+    },
+    {
+      "group": "not-industrial-verified",
+      "metric": "cc_mean",
+      "n_projects": 10,
+      "name": "cc_mean",
+      "n": 10,
+      "mean": 3.582,
+      "sd": 1.3839,
+      "min": 1.907,
+      "q1": 2.8138,
+      "median": 3.319,
+      "q3": 3.9807,
+      "max": 6.963,
+      "iqr": 1.167
+    },
+    {
+      "group": "not-industrial-verified",
+      "metric": "cc_p95",
+      "n_projects": 10,
+      "name": "cc_p95",
+      "n": 10,
+      "mean": 11.3,
+      "sd": 4.8546,
+      "min": 6.0,
+      "q1": 8.25,
+      "median": 10.0,
+      "q3": 13.25,
+      "max": 22.0,
+      "iqr": 5.0
+    },
+    {
+      "group": "not-industrial-verified",
+      "metric": "cc_max",
+      "n_projects": 10,
+      "name": "cc_max",
+      "n": 10,
+      "mean": 241.4,
+      "sd": 518.6406,
+      "min": 48.0,
+      "q1": 55.25,
+      "median": 66.5,
+      "q3": 114.25,
+      "max": 1715.0,
+      "iqr": 59.0
+    },
+    {
+      "group": "not-industrial-verified",
+      "metric": "share_Cplus",
+      "n_projects": 10,
+      "name": "share_Cplus",
+      "n": 10,
+      "mean": 0.0578,
+      "sd": 0.0403,
+      "min": 0.0142,
+      "q1": 0.0312,
+      "median": 0.0466,
+      "q3": 0.0714,
+      "max": 0.1478,
+      "iqr": 0.0402
+    },
+    {
+      "group": "not-industrial-verified",
+      "metric": "cc_per_kloc",
+      "n_projects": 10,
+      "name": "cc_per_kloc",
+      "n": 10,
+      "mean": 89.971,
+      "sd": 45.5904,
+      "min": 47.672,
+      "q1": 60.3695,
+      "median": 74.055,
+      "q3": 115.5178,
+      "max": 192.554,
+      "iqr": 55.1483
+    },
+    {
+      "group": "not-industrial-verified",
+      "metric": "n_functions",
+      "n_projects": 10,
+      "name": "n_functions",
+      "n": 10,
+      "mean": 3158.3,
+      "sd": 2332.4827,
+      "min": 345.0,
+      "q1": 1058.25,
+      "median": 2809.5,
+      "q3": 5143.0,
+      "max": 6162.0,
+      "iqr": 4084.75
+    }
+  ],
+  "rq1_tests": {
+    "cc_mean": {
+      "U": 13.0,
+      "z": -0.0945,
+      "p": 0.924719,
+      "effect_r": -0.0714,
+      "n_x": 4,
+      "n_y": 7,
+      "cliffs_delta": 0.0714,
+      "delta_ci": {
+        "point": 0.0714,
+        "lo": -0.7143,
+        "hi": 0.7143,
+        "n_boot": 600
+      },
+      "median_diff_ci": {
+        "point": 0.4675,
+        "lo": -1.0255,
+        "hi": 1.491,
+        "n_boot": 1200
+      }
+    },
+    "cc_p95": {
+      "U": 14.0,
+      "z": 0.0958,
+      "p": 0.923674,
+      "effect_r": 0.0,
+      "n_x": 4,
+      "n_y": 7,
+      "cliffs_delta": 0.0,
+      "delta_ci": {
+        "point": 0.0,
+        "lo": -0.7143,
+        "hi": 0.7143,
+        "n_boot": 600
+      },
+      "median_diff_ci": {
+        "point": 1.5,
+        "lo": -4.0,
+        "hi": 5.0,
+        "n_boot": 1200
+      }
+    },
+    "cc_max": {
+      "U": 6.0,
+      "z": -1.4174,
+      "p": 0.156376,
+      "effect_r": -0.5714,
+      "n_x": 4,
+      "n_y": 7,
+      "cliffs_delta": 0.5714,
+      "delta_ci": {
+        "point": 0.5714,
+        "lo": -0.0714,
+        "hi": 1.0,
+        "n_boot": 600
+      },
+      "median_diff_ci": {
+        "point": 131.0,
+        "lo": -21.5,
+        "hi": 174.0,
+        "n_boot": 1200
+      }
+    },
+    "share_Cplus": {
+      "U": 13.0,
+      "z": -0.0945,
+      "p": 0.924719,
+      "effect_r": -0.0714,
+      "n_x": 4,
+      "n_y": 7,
+      "cliffs_delta": 0.0714,
+      "delta_ci": {
+        "point": 0.0714,
+        "lo": -0.6447,
+        "hi": 0.7143,
+        "n_boot": 600
+      },
+      "median_diff_ci": {
+        "point": 0.0117,
+        "lo": -0.0333,
+        "hi": 0.0367,
+        "n_boot": 1200
+      }
+    },
+    "cc_per_kloc": {
+      "U": 11.0,
+      "z": -0.4725,
+      "p": 0.636602,
+      "effect_r": -0.2143,
+      "n_x": 4,
+      "n_y": 7,
+      "cliffs_delta": 0.2143,
+      "delta_ci": {
+        "point": 0.2143,
+        "lo": -0.6429,
+        "hi": 1.0,
+        "n_boot": 600
+      },
+      "median_diff_ci": {
+        "point": 12.68,
+        "lo": -53.148,
+        "hi": 47.613,
+        "n_boot": 1200
+      }
+    },
+    "n_functions": {
+      "U": 10.0,
+      "z": -0.6614,
+      "p": 0.508332,
+      "effect_r": -0.2857,
+      "n_x": 4,
+      "n_y": 7,
+      "cliffs_delta": -0.2857,
+      "delta_ci": {
+        "point": -0.2857,
+        "lo": -0.8571,
+        "hi": 0.4286,
+        "n_boot": 600
+      },
+      "median_diff_ci": {
+        "point": -6967.5,
+        "lo": -25728.5,
+        "hi": 11776.0,
+        "n_boot": 1200
+      }
+    },
+    "median_fn_nloc": {
+      "U": 14.0,
+      "z": 0.0949,
+      "p": 0.924376,
+      "effect_r": 0.0,
+      "n_x": 4,
+      "n_y": 7,
+      "cliffs_delta": 0.0,
+      "delta_ci": {
+        "point": 0.0,
+        "lo": -0.6795,
+        "hi": 0.7143,
+        "n_boot": 600
+      },
+      "median_diff_ci": {
+        "point": 1.5,
+        "lo": -7.5,
+        "hi": 4.0125,
+        "n_boot": 1200
+      }
+    },
+    "long_fn_share": {
+      "U": 13.0,
+      "z": -0.0945,
+      "p": 0.924719,
+      "effect_r": -0.0714,
+      "n_x": 4,
+      "n_y": 7,
+      "cliffs_delta": -0.0714,
+      "delta_ci": {
+        "point": -0.0714,
+        "lo": -0.7143,
+        "hi": 0.5714,
+        "n_boot": 600
+      },
+      "median_diff_ci": {
+        "point": -0.0016,
+        "lo": -0.0315,
+        "hi": 0.0207,
+        "n_boot": 1200
+      }
+    }
+  },
+  "rq2_per_project": [
+    {
+      "project": "Mosquitto",
+      "group": "not-industrial-verified",
+      "cc_mean": 6.963,
+      "cc_p95": 22.0,
+      "cc_per_kloc": 58.789,
+      "median_fn_nloc": 14.0,
+      "long_fn_share": 0.0781,
+      "share_Cplus": 0.1478,
+      "demo_subtree_share": 0.0852,
+      "industrial_hits": 42.0,
+      "instructional_hits": 56.0,
+      "n_functions": 2010,
+      "sloc": 34190
+    },
+    {
+      "project": "ros2_control",
+      "group": "not-industrial-verified",
+      "cc_mean": 4.249,
+      "cc_p95": 16.0,
+      "cc_per_kloc": 126.653,
+      "median_fn_nloc": 9.0,
+      "long_fn_share": 0.0773,
+      "share_Cplus": 0.0979,
+      "demo_subtree_share": 0.0,
+      "industrial_hits": 55.0,
+      "instructional_hits": 13.0,
+      "n_functions": 776,
+      "sloc": 6127
+    },
+    {
+      "project": "ThingsBoard-Gateway",
+      "group": "not-industrial-verified",
+      "cc_mean": 4.052,
+      "cc_p95": 14.0,
+      "cc_per_kloc": 68.555,
+      "median_fn_nloc": 7.0,
+      "long_fn_share": 0.0215,
+      "share_Cplus": 0.0761,
+      "demo_subtree_share": 0.0,
+      "industrial_hits": 63.0,
+      "instructional_hits": 3.0,
+      "n_functions": 1905,
+      "sloc": 27788
+    },
+    {
+      "project": "Mbed-OS",
+      "group": "production-oriented",
+      "cc_mean": 3.991,
+      "cc_p95": 13.0,
+      "cc_per_kloc": 124.285,
+      "median_fn_nloc": 10.0,
+      "long_fn_share": 0.0423,
+      "share_Cplus": 0.0742,
+      "demo_subtree_share": 0.0,
+      "industrial_hits": 2059.0,
+      "instructional_hits": 523.0,
+      "n_functions": 29935,
+      "sloc": 240857
+    },
+    {
+      "project": "Zephyr",
+      "group": "production-oriented",
+      "cc_mean": 4.263,
+      "cc_p95": 13.0,
+      "cc_per_kloc": 72.777,
+      "median_fn_nloc": 14.0,
+      "long_fn_share": 0.0444,
+      "share_Cplus": 0.0811,
+      "demo_subtree_share": 0.0,
+      "industrial_hits": 7654.0,
+      "instructional_hits": 458.0,
+      "n_functions": 35428,
+      "sloc": 486800
+    },
+    {
+      "project": "Contiki-NG",
+      "group": "demonstration-oriented",
+      "cc_mean": 3.905,
+      "cc_p95": 12.0,
+      "cc_per_kloc": 108.248,
+      "median_fn_nloc": 10.0,
+      "long_fn_share": 0.0358,
+      "share_Cplus": 0.0647,
+      "demo_subtree_share": 0.1612,
+      "industrial_hits": 2541.0,
+      "instructional_hits": 249.0,
+      "n_functions": 6815,
+      "sloc": 62957
+    },
+    {
+      "project": "Serial-Studio",
+      "group": "demonstration-oriented",
+      "cc_mean": 3.841,
+      "cc_p95": 12.0,
+      "cc_per_kloc": 139.364,
+      "median_fn_nloc": 8.0,
+      "long_fn_share": 0.0309,
+      "share_Cplus": 0.0677,
+      "demo_subtree_share": 0.0147,
+      "industrial_hits": 2142.0,
+      "instructional_hits": 511.0,
+      "n_functions": 26460,
+      "sloc": 189862
+    },
+    {
+      "project": "Beremiz",
+      "group": "not-industrial-verified",
+      "cc_mean": 3.447,
+      "cc_p95": 11.0,
+      "cc_per_kloc": 82.112,
+      "median_fn_nloc": 6.0,
+      "long_fn_share": 0.0256,
+      "share_Cplus": 0.0533,
+      "demo_subtree_share": 0.0,
+      "industrial_hits": 334.0,
+      "instructional_hits": 38.0,
+      "n_functions": 6055,
+      "sloc": 73741
+    },
+    {
+      "project": "IoTivity-Lite",
+      "group": "not-industrial-verified",
+      "cc_mean": 3.767,
+      "cc_p95": 11.0,
+      "cc_per_kloc": 65.111,
+      "median_fn_nloc": 10.0,
+      "long_fn_share": 0.0351,
+      "share_Cplus": 0.0574,
+      "demo_subtree_share": 0.0,
+      "industrial_hits": 254.0,
+      "instructional_hits": 29.0,
+      "n_functions": 6162,
+      "sloc": 94638
+    },
+    {
+      "project": "ESP-IDF",
+      "group": "production-oriented",
+      "cc_mean": 3.079,
+      "cc_p95": 10.0,
+      "cc_per_kloc": 93.299,
+      "median_fn_nloc": 7.0,
+      "long_fn_share": 0.0261,
+      "share_Cplus": 0.0477,
+      "demo_subtree_share": 0.0,
+      "industrial_hits": 3234.0,
+      "instructional_hits": 336.0,
+      "n_functions": 43315,
+      "sloc": 464260
+    },
+    {
+      "project": "ESP8266-Arduino",
+      "group": "not-industrial-verified",
+      "cc_mean": 2.861,
+      "cc_p95": 9.0,
+      "cc_per_kloc": 126.96,
+      "median_fn_nloc": 6.0,
+      "long_fn_share": 0.0236,
+      "share_Cplus": 0.0399,
+      "demo_subtree_share": 0.2273,
+      "industrial_hits": 473.0,
+      "instructional_hits": 193.0,
+      "n_functions": 5166,
+      "sloc": 40690
+    },
+    {
+      "project": "FreeRTOS-Kernel",
+      "group": "production-oriented",
+      "cc_mean": 2.489,
+      "cc_p95": 9.0,
+      "cc_per_kloc": 65.483,
+      "median_fn_nloc": 18.0,
+      "long_fn_share": 0.0665,
+      "share_Cplus": 0.0383,
+      "demo_subtree_share": 0.0046,
+      "industrial_hits": 1174.0,
+      "instructional_hits": 152.0,
+      "n_functions": 5638,
+      "sloc": 86099
+    },
+    {
+      "project": "node-opcua",
+      "group": "production-oriented",
+      "cc_mean": 2.973,
+      "cc_p95": 9.0,
+      "cc_per_kloc": 87.318,
+      "median_fn_nloc": 5.0,
+      "long_fn_share": 0.0151,
+      "share_Cplus": 0.0411,
+      "demo_subtree_share": 0.0004,
+      "industrial_hits": 2380.0,
+      "instructional_hits": 194.0,
+      "n_functions": 7746,
+      "sloc": 88710
+    },
+    {
+      "project": "pycomm3",
+      "group": "not-industrial-verified",
+      "cc_mean": 3.191,
+      "cc_p95": 9.0,
+      "cc_per_kloc": 47.672,
+      "median_fn_nloc": 6.0,
+      "long_fn_share": 0.0203,
+      "share_Cplus": 0.0377,
+      "demo_subtree_share": 0.2059,
+      "industrial_hits": 34.0,
+      "instructional_hits": 3.0,
+      "n_functions": 345,
+      "sloc": 7237
+    },
+    {
+      "project": "RIOT",
+      "group": "demonstration-oriented",
+      "cc_mean": 3.04,
+      "cc_p95": 9.0,
+      "cc_per_kloc": 39.004,
+      "median_fn_nloc": 9.0,
+      "long_fn_share": 0.0181,
+      "share_Cplus": 0.0409,
+      "demo_subtree_share": 0.0367,
+      "industrial_hits": 3790.0,
+      "instructional_hits": 432.0,
+      "n_functions": 12584,
+      "sloc": 322634
+    },
+    {
+      "project": "emoncms",
+      "group": "not-industrial-verified",
+      "cc_mean": 2.798,
+      "cc_p95": 8.0,
+      "cc_per_kloc": 192.554,
+      "median_fn_nloc": 5.0,
+      "long_fn_share": 0.0104,
+      "share_Cplus": 0.0291,
+      "demo_subtree_share": 0.0,
+      "industrial_hits": 10.0,
+      "instructional_hits": 3.0,
+      "n_functions": 481,
+      "sloc": 2498
+    },
+    {
+      "project": "evcc",
+      "group": "production-oriented",
+      "cc_mean": 2.35,
+      "cc_p95": 7.0,
+      "cc_per_kloc": 113.26,
+      "median_fn_nloc": 6.0,
+      "long_fn_share": 0.0087,
+      "share_Cplus": 0.0184,
+      "demo_subtree_share": 0.0,
+      "industrial_hits": 581.0,
+      "instructional_hits": 66.0,
+      "n_functions": 12529,
+      "sloc": 110622
+    },
+    {
+      "project": "Mainflux",
+      "group": "not-industrial-verified",
+      "cc_mean": 2.585,
+      "cc_p95": 7.0,
+      "cc_per_kloc": 51.749,
+      "median_fn_nloc": 8.0,
+      "long_fn_share": 0.0557,
+      "share_Cplus": 0.0249,
+      "demo_subtree_share": 0.0,
+      "industrial_hits": 74.0,
+      "instructional_hits": 35.0,
+      "n_functions": 3609,
+      "sloc": 69740
+    },
+    {
+      "project": "OpenPLC_v3",
+      "group": "demonstration-oriented",
+      "cc_mean": 2.09,
+      "cc_p95": 6.0,
+      "cc_per_kloc": 101.416,
+      "median_fn_nloc": 5.0,
+      "long_fn_share": 0.0108,
+      "share_Cplus": 0.0191,
+      "demo_subtree_share": 0.0923,
+      "industrial_hits": 495.0,
+      "instructional_hits": 171.0,
+      "n_functions": 12465,
+      "sloc": 122909
+    },
+    {
+      "project": "HiveMQ CE",
+      "group": "not-industrial-verified",
+      "cc_mean": 1.907,
+      "cc_p95": 6.0,
+      "cc_per_kloc": 79.555,
+      "median_fn_nloc": 4.0,
+      "long_fn_share": 0.0073,
+      "share_Cplus": 0.0142,
+      "demo_subtree_share": 0.0,
+      "industrial_hits": 122.0,
+      "instructional_hits": 9.0,
+      "n_functions": 5074,
+      "sloc": 63780
+    },
+    {
+      "project": "Eclipse Ditto",
+      "group": "production-oriented",
+      "cc_mean": 1.524,
+      "cc_p95": 4.0,
+      "cc_per_kloc": 92.152,
+      "median_fn_nloc": 4.0,
+      "long_fn_share": 0.0022,
+      "share_Cplus": 0.0042,
+      "demo_subtree_share": 0.0,
+      "industrial_hits": 607.0,
+      "instructional_hits": 76.0,
+      "n_functions": 19492,
+      "sloc": 211521
+    }
+  ],
+  "rq3_coupling": {
+    "per_group": [
+      {
+        "group": "demonstration-oriented",
+        "metric": "mean_instability",
+        "n_projects": 4,
+        "name": "mean_instability",
+        "n": 4,
+        "mean": 0.8238,
+        "sd": 0.1125,
+        "min": 0.6732,
+        "q1": 0.7717,
+        "median": 0.8491,
+        "q3": 0.9012,
+        "max": 0.924,
+        "iqr": 0.1295
+      },
+      {
+        "group": "demonstration-oriented",
+        "metric": "include_edges",
+        "n_projects": 4,
+        "name": "include_edges",
+        "n": 4,
+        "mean": 2597.5,
+        "sd": 1664.8589,
+        "min": 269.0,
+        "q1": 2078.0,
+        "median": 2986.5,
+        "q3": 3506.0,
+        "max": 4148.0,
+        "iqr": 1428.0
+      },
+      {
+        "group": "demonstration-oriented",
+        "metric": "max_ca",
+        "n_projects": 4,
+        "name": "max_ca",
+        "n": 4,
+        "mean": 227.0,
+        "sd": 246.5806,
+        "min": 55.0,
+        "q1": 84.25,
+        "median": 131.5,
+        "q3": 274.25,
+        "max": 590.0,
+        "iqr": 190.0
+      },
+      {
+        "group": "demonstration-oriented",
+        "metric": "max_ce",
+        "n_projects": 4,
+        "name": "max_ce",
+        "n": 4,
+        "mean": 43.75,
+        "sd": 37.1786,
+        "min": 5.0,
+        "q1": 16.25,
+        "median": 43.5,
+        "q3": 71.0,
+        "max": 83.0,
+        "iqr": 54.75
+      },
+      {
+        "group": "demonstration-oriented",
+        "metric": "comment_ratio",
+        "n_projects": 4,
+        "name": "comment_ratio",
+        "n": 4,
+        "mean": 0.1054,
+        "sd": 0.0496,
+        "min": 0.0616,
+        "q1": 0.0644,
+        "median": 0.0998,
+        "q3": 0.1408,
+        "max": 0.1604,
+        "iqr": 0.0764
+      },
+      {
+        "group": "production-oriented",
+        "metric": "mean_instability",
+        "n_projects": 4,
+        "name": "mean_instability",
+        "n": 4,
+        "mean": 0.7684,
+        "sd": 0.0921,
+        "min": 0.6322,
+        "q1": 0.753,
+        "median": 0.8054,
+        "q3": 0.8209,
+        "max": 0.8306,
+        "iqr": 0.068
+      },
+      {
+        "group": "production-oriented",
+        "metric": "include_edges",
+        "n_projects": 7,
+        "name": "include_edges",
+        "n": 7,
+        "mean": 621.0,
+        "sd": 887.1047,
+        "min": 0.0,
+        "q1": 0.0,
+        "median": 107.0,
+        "q3": 999.0,
+        "max": 2242.0,
+        "iqr": 999.0
+      },
+      {
+        "group": "production-oriented",
+        "metric": "max_ca",
+        "n_projects": 7,
+        "name": "max_ca",
+        "n": 7,
+        "mean": 57.0,
+        "sd": 60.9317,
+        "min": 0.0,
+        "q1": 0.0,
+        "median": 59.0,
+        "q3": 91.5,
+        "max": 157.0,
+        "iqr": 91.5
+      },
+      {
+        "group": "production-oriented",
+        "metric": "max_ce",
+        "n_projects": 7,
+        "name": "max_ce",
+        "n": 7,
+        "mean": 15.4286,
+        "sd": 21.9078,
+        "min": 0.0,
+        "q1": 0.0,
+        "median": 4.0,
+        "q3": 25.5,
+        "max": 53.0,
+        "iqr": 25.5
+      },
+      {
+        "group": "production-oriented",
+        "metric": "comment_ratio",
+        "n_projects": 7,
+        "name": "comment_ratio",
+        "n": 7,
+        "mean": 0.0828,
+        "sd": 0.0811,
+        "min": 0.0002,
+        "q1": 0.0015,
+        "median": 0.1176,
+        "q3": 0.129,
+        "max": 0.2008,
+        "iqr": 0.1274
+      }
+    ],
+    "tests": {
+      "include_edges": {
+        "U": 3.0,
+        "z": -2.0026,
+        "p": 0.04522,
+        "effect_r": -0.7857,
+        "n_x": 4,
+        "n_y": 7,
+        "cliffs_delta": 0.7857
+      },
+      "mean_instability": {
+        "U": 5.0,
+        "z": -0.7217,
+        "p": 0.470486,
+        "effect_r": -0.375,
+        "n_x": 4,
+        "n_y": 4,
+        "cliffs_delta": 0.375
+      },
+      "max_ca": {
+        "U": 6.0,
+        "z": -1.4304,
+        "p": 0.152594,
+        "effect_r": -0.5714,
+        "n_x": 4,
+        "n_y": 7,
+        "cliffs_delta": 0.5714
+      },
+      "max_ce": {
+        "U": 5.0,
+        "z": -1.6212,
+        "p": 0.104985,
+        "effect_r": -0.6429,
+        "n_x": 4,
+        "n_y": 7,
+        "cliffs_delta": 0.6429
+      }
+    },
+    "note": "coupling from a resolved #include graph: Ca = project units including a file, Ce = project files it includes, instability = Ce/(Ca+Ce)"
+  },
+  "rq4": {
+    "per_project": [
+      {
+        "worktree": "beremiz__head",
+        "n_projects": 1,
+        "mean_cc_mean": 3.447,
+        "max_cc_p95": 11.0,
+        "total_functions": 6055
+      },
+      {
+        "worktree": "contiki-ng__head",
+        "n_projects": 1,
+        "mean_cc_mean": 3.905,
+        "max_cc_p95": 12.0,
+        "total_functions": 6815
+      },
+      {
+        "worktree": "ditto__head",
+        "n_projects": 1,
+        "mean_cc_mean": 1.524,
+        "max_cc_p95": 4.0,
+        "total_functions": 19492
+      },
+      {
+        "worktree": "emoncms__head",
+        "n_projects": 1,
+        "mean_cc_mean": 2.798,
+        "max_cc_p95": 8.0,
+        "total_functions": 481
+      },
+      {
+        "worktree": "esp-idf__head",
+        "n_projects": 1,
+        "mean_cc_mean": 3.079,
+        "max_cc_p95": 10.0,
+        "total_functions": 43315
+      },
+      {
+        "worktree": "esp8266_ard__head",
+        "n_projects": 1,
+        "mean_cc_mean": 2.861,
+        "max_cc_p95": 9.0,
+        "total_functions": 5166
+      },
+      {
+        "worktree": "evcc__head",
+        "n_projects": 1,
+        "mean_cc_mean": 2.35,
+        "max_cc_p95": 7.0,
+        "total_functions": 12529
+      },
+      {
+        "worktree": "freertos__head",
+        "n_projects": 1,
+        "mean_cc_mean": 2.489,
+        "max_cc_p95": 9.0,
+        "total_functions": 5638
+      },
+      {
+        "worktree": "hivemq__head",
+        "n_projects": 1,
+        "mean_cc_mean": 1.907,
+        "max_cc_p95": 6.0,
+        "total_functions": 5074
+      },
+      {
+        "worktree": "iotivity__head",
+        "n_projects": 1,
+        "mean_cc_mean": 3.767,
+        "max_cc_p95": 11.0,
+        "total_functions": 6162
+      },
+      {
+        "worktree": "mainflux__head",
+        "n_projects": 1,
+        "mean_cc_mean": 2.585,
+        "max_cc_p95": 7.0,
+        "total_functions": 3609
+      },
+      {
+        "worktree": "mbed-os__head",
+        "n_projects": 1,
+        "mean_cc_mean": 3.991,
+        "max_cc_p95": 13.0,
+        "total_functions": 29935
+      },
+      {
+        "worktree": "mosquitto__head",
+        "n_projects": 1,
+        "mean_cc_mean": 6.963,
+        "max_cc_p95": 22.0,
+        "total_functions": 2010
+      },
+      {
+        "worktree": "node_opcua__head",
+        "n_projects": 1,
+        "mean_cc_mean": 2.973,
+        "max_cc_p95": 9.0,
+        "total_functions": 7746
+      },
+      {
+        "worktree": "openplc_v3__head",
+        "n_projects": 1,
+        "mean_cc_mean": 2.09,
+        "max_cc_p95": 6.0,
+        "total_functions": 12465
+      },
+      {
+        "worktree": "pycomm3__head",
+        "n_projects": 1,
+        "mean_cc_mean": 3.191,
+        "max_cc_p95": 9.0,
+        "total_functions": 345
+      },
+      {
+        "worktree": "riot__head",
+        "n_projects": 1,
+        "mean_cc_mean": 3.04,
+        "max_cc_p95": 9.0,
+        "total_functions": 12584
+      },
+      {
+        "worktree": "ros2_control__head",
+        "n_projects": 1,
+        "mean_cc_mean": 4.249,
+        "max_cc_p95": 16.0,
+        "total_functions": 776
+      },
+      {
+        "worktree": "serial_studio__head",
+        "n_projects": 1,
+        "mean_cc_mean": 3.841,
+        "max_cc_p95": 12.0,
+        "total_functions": 26460
+      },
+      {
+        "worktree": "tb_gateway__head",
+        "n_projects": 1,
+        "mean_cc_mean": 4.052,
+        "max_cc_p95": 14.0,
+        "total_functions": 1905
+      },
+      {
+        "worktree": "zephyr__head",
+        "n_projects": 1,
+        "mean_cc_mean": 4.263,
+        "max_cc_p95": 13.0,
+        "total_functions": 35428
+      }
+    ],
+    "note": "each worktree is one analysed revision of one repository; the domain taxonomy is the project's own declared domain, recorded in targets.json"
+  },
+  "sensitivity": {
+    "at_median_cut": {
+      "demo_cut": 0.01,
+      "ins_cut": 76.0,
+      "n_demo": 4,
+      "n_prod": 7,
+      "median_demo": 10.5,
+      "median_prod": 9.0,
+      "U": 14.0,
+      "z": 0.0958,
+      "p": 0.923674,
+      "effect_r": 0.0,
+      "n_x": 4,
+      "n_y": 7,
+      "cliffs_delta": 0.0,
+      "delta_ci": {
+        "point": 0.0,
+        "lo": -0.7143,
+        "hi": 0.7143,
+        "n_boot": 600
+      }
+    },
+    "at_upper_quartile_cut": {
+      "demo_cut": 0.01,
+      "ins_cut": 29.0,
+      "n_demo": 4,
+      "n_prod": 7,
+      "median_demo": 10.5,
+      "median_prod": 9.0,
+      "U": 14.0,
+      "z": 0.0958,
+      "p": 0.923674,
+      "effect_r": 0.0,
+      "n_x": 4,
+      "n_y": 7,
+      "cliffs_delta": 0.0,
+      "delta_ci": {
+        "point": 0.0,
+        "lo": -0.7143,
+        "hi": 0.7143,
+        "n_boot": 600
+      }
+    }
+  }
+}

@@ -1,0 +1,9 @@
+group,metric,n_projects,name,n,mean,sd,min,q1,median,q3,max,iqr
+demonstration-oriented,mean_instability,3,mean_instability,3,0.7121,0.0609,0.6582,0.6791,0.7,0.739,0.7781,0.0599
+demonstration-oriented,include_edges,3,include_edges,3,1797.6667,1558.6899,7,1271.5,2536,2693.0,2850,1421.5
+demonstration-oriented,max_ca,3,max_ca,3,86.3333,74.7418,5,53.5,102,127.0,152,73.5
+demonstration-oriented,max_ce,3,max_ce,3,18.0,15.3948,1,11.5,22,26.5,31,15.0
+production-oriented,mean_instability,2,mean_instability,2,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+production-oriented,include_edges,2,include_edges,2,0.0,0.0,0,0.0,0.0,0.0,0,0.0
+production-oriented,max_ca,2,max_ca,2,0.0,0.0,0,0.0,0.0,0.0,0,0.0
+production-oriented,max_ce,2,max_ce,2,0.0,0.0,0,0.0,0.0,0.0,0,0.0

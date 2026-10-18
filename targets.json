@@ -1,0 +1,214 @@
+{
+  "version": "1.0.0",
+  "selection": "all industrial/control repositories successfully cloned; group assignment is derived by the marker classifier, not by hand",
+  "targets": [
+    {
+      "repo_key": "openplc_v3",
+      "name": "OpenPLC_v3",
+      "domain": "PLC/ICS runtime",
+      "sha": "b5d41356dab4aeadca0dd7ca64ba542f870b595d",
+      "tag": "head",
+      "src": "_repos2"
+    },
+    {
+      "repo_key": "serial_studio",
+      "name": "Serial-Studio",
+      "domain": "industrial HMI",
+      "sha": "70aeb505f1001789a182a0c5c82f9c0d1e987637",
+      "tag": "head",
+      "src": "_repos2"
+    },
+    {
+      "repo_key": "evcc",
+      "name": "evcc",
+      "domain": "energy control",
+      "sha": "ae20c49a6060700734a4b96479966e49759eb367",
+      "tag": "head",
+      "src": "_repos2"
+    },
+    {
+      "repo_key": "iotivity",
+      "name": "IoTivity-Lite",
+      "domain": "IoT middleware",
+      "sha": "49441ba166919599f2b9aa611107e5aba935828e",
+      "tag": "head",
+      "src": "_repos2"
+    },
+    {
+      "repo_key": "beremiz",
+      "name": "Beremiz",
+      "domain": "SCADA runtime",
+      "sha": "5e3a749da2297251a9368d3ce2de61619cdf5ce2",
+      "tag": "head",
+      "src": "_repos2"
+    },
+    {
+      "repo_key": "node_opcua",
+      "name": "node-opcua",
+      "domain": "OPC UA stack",
+      "sha": "97c753e4a4d2858f5f3dc328ddb3d50a2094abe0",
+      "tag": "head",
+      "src": "_repos2"
+    },
+    {
+      "repo_key": "pycomm3",
+      "name": "pycomm3",
+      "domain": "PLC protocol client",
+      "sha": "36aeb19b5cb47495df9fd1caa38ce9d2f6d12ea3",
+      "tag": "head",
+      "src": "_repos2"
+    },
+    {
+      "repo_key": "esp8266_ard",
+      "name": "ESP8266-Arduino",
+      "domain": "embedded platform",
+      "sha": "1475ed7d49fef5c5167061ac76abb6eced9abda5",
+      "tag": "head",
+      "src": "_repos2"
+    },
+    {
+      "repo_key": "freertos",
+      "name": "FreeRTOS-Kernel",
+      "domain": "RTOS kernel",
+      "sha": "8be86d4a24fd4091f8f4192018423ab590f408db",
+      "tag": "head",
+      "src": "_repos2"
+    },
+    {
+      "repo_key": "riot",
+      "name": "RIOT",
+      "domain": "embedded OS",
+      "sha": "93382afcfe712a294db1225789f6124d2d42d20a",
+      "tag": "head",
+      "src": "_repos2"
+    },
+    {
+      "repo_key": "contiki-ng",
+      "name": "Contiki-NG",
+      "domain": "embedded OS",
+      "sha": "735e87c3e5060e9c427b214e55c372967f595c04",
+      "tag": "head",
+      "src": "_repos2"
+    },
+    {
+      "repo_key": "zephyr",
+      "name": "Zephyr",
+      "domain": "embedded OS",
+      "sha": "8f62a4ab82b5c2121c088842d3233f75b603ce35",
+      "tag": "head",
+      "src": "_repos2"
+    },
+    {
+      "repo_key": "esp-idf",
+      "name": "ESP-IDF",
+      "domain": "embedded SDK",
+      "sha": "4d59230ddff16327812782151ef0afef202dc6d7",
+      "tag": "head",
+      "src": "_repos"
+    },
+    {
+      "repo_key": "mbed-os",
+      "name": "Mbed-OS",
+      "domain": "embedded OS",
+      "sha": "d723bf9e55415433e108124ee6d36337feddf1b8",
+      "tag": "head",
+      "src": "_repos"
+    },
+    {
+      "repo_key": "thingsboard",
+      "name": "ThingsBoard",
+      "domain": "industrial IoT",
+      "sha": "0439df09f31b0e8101b9f0a6be556c087d86818d",
+      "tag": "head",
+      "src": "_repos"
+    },
+    {
+      "repo_key": "mosquitto",
+      "name": "Mosquitto",
+      "domain": "industrial messaging",
+      "sha": "83f2620f0b955b89aadce32cceb96a8e81950f5e",
+      "tag": "head",
+      "src": "_repos2"
+    },
+    {
+      "repo_key": "ros2_control",
+      "name": "ros2_control",
+      "domain": "robot control",
+      "sha": "e4b82346084991f01bacad9d4e0d2fa6555d3454",
+      "tag": "head",
+      "src": "_repos2"
+    },
+    {
+      "repo_key": "px4",
+      "name": "PX4",
+      "domain": "autopilot",
+      "sha": "9fda8a51a4952dd6964fb7e2c86e0a4f748f740b",
+      "tag": "head",
+      "src": "_repos"
+    },
+    {
+      "repo_key": "ardupilot",
+      "name": "ArduPilot",
+      "domain": "autopilot",
+      "sha": "e21a6aebbf70ca88bec946193c624b2db3399f8c",
+      "tag": "head",
+      "src": "_repos"
+    },
+    {
+      "repo_key": "ditto",
+      "name": "Eclipse Ditto",
+      "domain": "IoT digital twin",
+      "sha": "b91dcd99e7e665e4b7c8543fcd3cda5507b0c9c0",
+      "tag": "head",
+      "src": "_repos2"
+    },
+    {
+      "repo_key": "hivemq",
+      "name": "HiveMQ CE",
+      "domain": "industrial MQTT broker",
+      "sha": "55db034def697532f51eee77f23b042c71f158d2",
+      "tag": "head",
+      "src": "_repos2"
+    },
+    {
+      "repo_key": "mainflux",
+      "name": "Mainflux",
+      "domain": "IoT platform",
+      "sha": "35230a90bfbe8699c0503ddaebbd540d8d6bb410",
+      "tag": "head",
+      "src": "_repos2"
+    },
+    {
+      "repo_key": "tb_gateway",
+      "name": "ThingsBoard-Gateway",
+      "domain": "IoT gateway",
+      "sha": "e6feddd85e7fb8bc94503f55f1cb405ffb9d66d8",
+      "tag": "head",
+      "src": "_repos2"
+    },
+    {
+      "repo_key": "grafana",
+      "name": "Grafana",
+      "domain": "monitoring UI",
+      "sha": "6b6eaf7897e087f5d00005e8a86d83c2b86c3ddc",
+      "tag": "head",
+      "src": "_repos"
+    },
+    {
+      "repo_key": "ha_core",
+      "name": "Home Assistant",
+      "domain": "home automation",
+      "sha": "24f2676463552c1bf1567ecd8796921542b09ea3",
+      "tag": "head",
+      "src": "_repos"
+    },
+    {
+      "repo_key": "kafka",
+      "name": "Apache Kafka",
+      "domain": "event streaming",
+      "sha": "28093d8215b69aa629031673325752484a84b0f3",
+      "tag": "head",
+      "src": "_repos"
+    }
+  ]
+}

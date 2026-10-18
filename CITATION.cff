@@ -15,3 +15,6 @@ keywords:
   - "software engineering education"
 license: MIT
 repository-code: "https://github.com/DrKaiZhang/demo-vs-production-complexity"
+version: v1.0.0
+doi: 10.5281/zenodo.23444422
+date-released: "2026-10-18"
